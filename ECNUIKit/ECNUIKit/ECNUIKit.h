@@ -19,3 +19,6 @@ FOUNDATION_EXPORT const unsigned char ECNUIKitVersionString[];
 #import <ECNUIKit/Button.h>
 #import <ECNUIKit/TextField.h>
 
+
+#import <ECNUIKit/NSView+GreenArrows.h>
+

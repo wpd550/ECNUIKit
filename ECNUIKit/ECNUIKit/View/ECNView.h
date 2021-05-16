@@ -11,6 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ECNView : NSView
 
+@property (nonatomic, strong) NSTrackingArea *trackingArea;
+@property (nonatomic, assign) BOOL needsTrackingArea;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

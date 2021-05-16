@@ -36,6 +36,10 @@
 		F5491F8826502EA500A405EE /* ECNSecureTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491F7C26502EA500A405EE /* ECNSecureTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5491F8926502EA500A405EE /* ECNClipTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F5491F7D26502EA500A405EE /* ECNClipTextField.m */; };
 		F5491F8B2650325E00A405EE /* TextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491F8A26502F9600A405EE /* TextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5491F92265051F200A405EE /* NSView+GreenArrows.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491F90265051F200A405EE /* NSView+GreenArrows.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5491F93265051F200A405EE /* NSView+GreenArrows.m in Sources */ = {isa = PBXBuildFile; fileRef = F5491F91265051F200A405EE /* NSView+GreenArrows.m */; };
+		F5491F962650522C00A405EE /* NS(Attributed)String+Geometrics.m in Sources */ = {isa = PBXBuildFile; fileRef = F5491F942650522C00A405EE /* NS(Attributed)String+Geometrics.m */; };
+		F5491F972650522C00A405EE /* NS(Attributed)String+Geometrics.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491F952650522C00A405EE /* NS(Attributed)String+Geometrics.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +100,10 @@
 		F5491F7C26502EA500A405EE /* ECNSecureTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECNSecureTextField.h; sourceTree = "<group>"; };
 		F5491F7D26502EA500A405EE /* ECNClipTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECNClipTextField.m; sourceTree = "<group>"; };
 		F5491F8A26502F9600A405EE /* TextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextField.h; sourceTree = "<group>"; };
+		F5491F90265051F200A405EE /* NSView+GreenArrows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+GreenArrows.h"; sourceTree = "<group>"; };
+		F5491F91265051F200A405EE /* NSView+GreenArrows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+GreenArrows.m"; sourceTree = "<group>"; };
+		F5491F942650522C00A405EE /* NS(Attributed)String+Geometrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NS(Attributed)String+Geometrics.m"; sourceTree = "<group>"; };
+		F5491F952650522C00A405EE /* NS(Attributed)String+Geometrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NS(Attributed)String+Geometrics.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +194,10 @@
 		F5491F7026502D8600A405EE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F5491F952650522C00A405EE /* NS(Attributed)String+Geometrics.h */,
+				F5491F942650522C00A405EE /* NS(Attributed)String+Geometrics.m */,
+				F5491F90265051F200A405EE /* NSView+GreenArrows.h */,
+				F5491F91265051F200A405EE /* NSView+GreenArrows.m */,
 				F5491F6C26502D5C00A405EE /* ECNView.h */,
 				F5491F6D26502D5C00A405EE /* ECNView.m */,
 			);
@@ -220,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5491F7F26502EA500A405EE /* ECNTextField.h in Headers */,
+				F5491F972650522C00A405EE /* NS(Attributed)String+Geometrics.h in Headers */,
 				F5491F8026502EA500A405EE /* NSColor+Custom.h in Headers */,
 				F5491F8126502EA500A405EE /* ECNClipTextField.h in Headers */,
 				F5491F6B26502CC800A405EE /* ECNCheckBoxCell.h in Headers */,
@@ -229,6 +242,7 @@
 				F5491F3C2650297800A405EE /* ECNUIKit.h in Headers */,
 				F5491F8326502EA500A405EE /* ECNTextFieldCell.h in Headers */,
 				F5491F6E26502D5C00A405EE /* ECNView.h in Headers */,
+				F5491F92265051F200A405EE /* NSView+GreenArrows.h in Headers */,
 				F5491F6326502AF700A405EE /* Button.h in Headers */,
 				F5491F8B2650325E00A405EE /* TextField.h in Headers */,
 				F5491F7E26502EA500A405EE /* ECNSecureTextFieldCell.h in Headers */,
@@ -344,6 +358,8 @@
 				F5491F8926502EA500A405EE /* ECNClipTextField.m in Sources */,
 				F5491F6026502A4900A405EE /* ECNButton.m in Sources */,
 				F5491F8726502EA500A405EE /* ECNTextFieldCell.m in Sources */,
+				F5491F962650522C00A405EE /* NS(Attributed)String+Geometrics.m in Sources */,
+				F5491F93265051F200A405EE /* NSView+GreenArrows.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
