@@ -166,6 +166,7 @@
 
 - (void)mouseExited:(NSEvent *)event{
     NSLog(@"mouseEntered");
+    [self setNeedsDisplay:YES];
 }
 
 

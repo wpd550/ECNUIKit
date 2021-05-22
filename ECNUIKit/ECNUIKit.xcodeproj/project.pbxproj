@@ -40,6 +40,51 @@
 		F5491F93265051F200A405EE /* NSView+GreenArrows.m in Sources */ = {isa = PBXBuildFile; fileRef = F5491F91265051F200A405EE /* NSView+GreenArrows.m */; };
 		F5491F962650522C00A405EE /* NS(Attributed)String+Geometrics.m in Sources */ = {isa = PBXBuildFile; fileRef = F5491F942650522C00A405EE /* NS(Attributed)String+Geometrics.m */; };
 		F5491F972650522C00A405EE /* NS(Attributed)String+Geometrics.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491F952650522C00A405EE /* NS(Attributed)String+Geometrics.h */; };
+		F5491FA12651693600A405EE /* SFBPopoverWindowFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491F992651693600A405EE /* SFBPopoverWindowFrame.h */; };
+		F5491FA22651693600A405EE /* SFBPopoverWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491F9A2651693600A405EE /* SFBPopoverWindow.h */; };
+		F5491FA32651693600A405EE /* SFBPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = F5491F9B2651693600A405EE /* SFBPopover.m */; };
+		F5491FA42651693600A405EE /* SFBPopovers.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491F9C2651693600A405EE /* SFBPopovers.h */; };
+		F5491FA52651693600A405EE /* SFBPopoverWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F5491F9D2651693600A405EE /* SFBPopoverWindow.m */; };
+		F5491FA62651693600A405EE /* SFBPopoverWindowFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F5491F9E2651693600A405EE /* SFBPopoverWindowFrame.m */; };
+		F5491FA72651693600A405EE /* SFBPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491F9F2651693600A405EE /* SFBPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5491FC32656AA6900A405EE /* ECNModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491FC12656AA6900A405EE /* ECNModel.h */; };
+		F5491FC42656AA6900A405EE /* ECNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5491FC22656AA6900A405EE /* ECNModel.m */; };
+		F5491FC52656AB0900A405EE /* ECNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5491FC22656AA6900A405EE /* ECNModel.m */; };
+		F5491FC82656B62E00A405EE /* ECNTableRowView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491FC62656B62E00A405EE /* ECNTableRowView.h */; };
+		F5491FC92656B62E00A405EE /* ECNTableRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5491FC72656B62E00A405EE /* ECNTableRowView.m */; };
+		F5491FCA2656B62E00A405EE /* ECNTableRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5491FC72656B62E00A405EE /* ECNTableRowView.m */; };
+		F5491FCE26591E7400A405EE /* LeftModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F5491FCC26591E7400A405EE /* LeftModel.h */; };
+		F5491FCF26591E7400A405EE /* LeftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5491FCD26591E7400A405EE /* LeftModel.m */; };
+		F5491FD026591E7400A405EE /* LeftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5491FCD26591E7400A405EE /* LeftModel.m */; };
+		F5F557E82659225C000E1D20 /* ECNFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F557E62659225C000E1D20 /* ECNFirstViewController.m */; };
+		F5F557E92659225C000E1D20 /* ECNFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F557E72659225C000E1D20 /* ECNFirstViewController.xib */; };
+		F5F557F126592C50000E1D20 /* ECNClipView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F557EF26592C50000E1D20 /* ECNClipView.h */; };
+		F5F557F226592C50000E1D20 /* ECNClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F557F026592C50000E1D20 /* ECNClipView.m */; };
+		F5F557F326592C50000E1D20 /* ECNClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F557F026592C50000E1D20 /* ECNClipView.m */; };
+		F5F557F6265930A1000E1D20 /* ECNScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F557F4265930A1000E1D20 /* ECNScrollView.h */; };
+		F5F557F7265930A1000E1D20 /* ECNScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F557F5265930A1000E1D20 /* ECNScrollView.m */; };
+		F5F557F8265930A1000E1D20 /* ECNScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F557F5265930A1000E1D20 /* ECNScrollView.m */; };
+		F5F558522659441B000E1D20 /* PXListView+UserInteraction.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F5584C2659441B000E1D20 /* PXListView+UserInteraction.h */; };
+		F5F558532659441B000E1D20 /* PXListView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F5584D2659441B000E1D20 /* PXListView+Private.h */; };
+		F5F558542659441B000E1D20 /* PXListView+UserInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F5584E2659441B000E1D20 /* PXListView+UserInteraction.m */; };
+		F5F558552659441B000E1D20 /* PXListView+UserInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F5584E2659441B000E1D20 /* PXListView+UserInteraction.m */; };
+		F5F558562659441B000E1D20 /* PXListView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F5584F2659441B000E1D20 /* PXListView.h */; };
+		F5F558572659441B000E1D20 /* PXListView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F558502659441B000E1D20 /* PXListView.m */; };
+		F5F558582659441B000E1D20 /* PXListView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F558502659441B000E1D20 /* PXListView.m */; };
+		F5F558592659441B000E1D20 /* PXListViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F558512659441B000E1D20 /* PXListViewDelegate.h */; };
+		F5F5585F26594442000E1D20 /* PXListViewCell+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F5585B26594442000E1D20 /* PXListViewCell+Private.h */; };
+		F5F5586026594442000E1D20 /* PXListViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F5585C26594442000E1D20 /* PXListViewCell.h */; };
+		F5F5586126594442000E1D20 /* PXListViewDropHighlight.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F5585D26594442000E1D20 /* PXListViewDropHighlight.h */; };
+		F5F5586226594442000E1D20 /* PXListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F5585E26594442000E1D20 /* PXListViewCell.m */; };
+		F5F5586326594442000E1D20 /* PXListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F5585E26594442000E1D20 /* PXListViewCell.m */; };
+		F5F5586626594454000E1D20 /* PXListDocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F5586426594453000E1D20 /* PXListDocumentView.m */; };
+		F5F5586726594454000E1D20 /* PXListDocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F5586426594453000E1D20 /* PXListDocumentView.m */; };
+		F5F5586826594454000E1D20 /* PXListDocumentView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F5586526594454000E1D20 /* PXListDocumentView.h */; };
+		F5F5586B265946B3000E1D20 /* ECNHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F55869265946B3000E1D20 /* ECNHorizontalTableView.m */; };
+		F5F5586C265946B3000E1D20 /* ECNHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F55869265946B3000E1D20 /* ECNHorizontalTableView.m */; };
+		F5F5586D265946B3000E1D20 /* ECNHorizontalTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F5586A265946B3000E1D20 /* ECNHorizontalTableView.h */; };
+		F5F5587126594988000E1D20 /* TestTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F5587026594988000E1D20 /* TestTitleCell.m */; };
+		F5F55873265949A0000E1D20 /* TestTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F55872265949A0000E1D20 /* TestTitleCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +149,43 @@
 		F5491F91265051F200A405EE /* NSView+GreenArrows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+GreenArrows.m"; sourceTree = "<group>"; };
 		F5491F942650522C00A405EE /* NS(Attributed)String+Geometrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NS(Attributed)String+Geometrics.m"; sourceTree = "<group>"; };
 		F5491F952650522C00A405EE /* NS(Attributed)String+Geometrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NS(Attributed)String+Geometrics.h"; sourceTree = "<group>"; };
+		F5491F992651693600A405EE /* SFBPopoverWindowFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBPopoverWindowFrame.h; sourceTree = "<group>"; };
+		F5491F9A2651693600A405EE /* SFBPopoverWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBPopoverWindow.h; sourceTree = "<group>"; };
+		F5491F9B2651693600A405EE /* SFBPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBPopover.m; sourceTree = "<group>"; };
+		F5491F9C2651693600A405EE /* SFBPopovers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBPopovers.h; sourceTree = "<group>"; };
+		F5491F9D2651693600A405EE /* SFBPopoverWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBPopoverWindow.m; sourceTree = "<group>"; };
+		F5491F9E2651693600A405EE /* SFBPopoverWindowFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBPopoverWindowFrame.m; sourceTree = "<group>"; };
+		F5491F9F2651693600A405EE /* SFBPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBPopover.h; sourceTree = "<group>"; };
+		F5491FC12656AA6900A405EE /* ECNModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECNModel.h; sourceTree = "<group>"; };
+		F5491FC22656AA6900A405EE /* ECNModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECNModel.m; sourceTree = "<group>"; };
+		F5491FC62656B62E00A405EE /* ECNTableRowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECNTableRowView.h; sourceTree = "<group>"; };
+		F5491FC72656B62E00A405EE /* ECNTableRowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECNTableRowView.m; sourceTree = "<group>"; };
+		F5491FCC26591E7400A405EE /* LeftModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftModel.h; sourceTree = "<group>"; };
+		F5491FCD26591E7400A405EE /* LeftModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftModel.m; sourceTree = "<group>"; };
+		F5F557E52659225C000E1D20 /* ECNFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECNFirstViewController.h; sourceTree = "<group>"; };
+		F5F557E62659225C000E1D20 /* ECNFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECNFirstViewController.m; sourceTree = "<group>"; };
+		F5F557E72659225C000E1D20 /* ECNFirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ECNFirstViewController.xib; sourceTree = "<group>"; };
+		F5F557EF26592C50000E1D20 /* ECNClipView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECNClipView.h; sourceTree = "<group>"; };
+		F5F557F026592C50000E1D20 /* ECNClipView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECNClipView.m; sourceTree = "<group>"; };
+		F5F557F4265930A1000E1D20 /* ECNScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECNScrollView.h; sourceTree = "<group>"; };
+		F5F557F5265930A1000E1D20 /* ECNScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECNScrollView.m; sourceTree = "<group>"; };
+		F5F5584C2659441B000E1D20 /* PXListView+UserInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PXListView+UserInteraction.h"; sourceTree = "<group>"; };
+		F5F5584D2659441B000E1D20 /* PXListView+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PXListView+Private.h"; sourceTree = "<group>"; };
+		F5F5584E2659441B000E1D20 /* PXListView+UserInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PXListView+UserInteraction.m"; sourceTree = "<group>"; };
+		F5F5584F2659441B000E1D20 /* PXListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXListView.h; sourceTree = "<group>"; };
+		F5F558502659441B000E1D20 /* PXListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXListView.m; sourceTree = "<group>"; };
+		F5F558512659441B000E1D20 /* PXListViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXListViewDelegate.h; sourceTree = "<group>"; };
+		F5F5585B26594442000E1D20 /* PXListViewCell+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PXListViewCell+Private.h"; sourceTree = "<group>"; };
+		F5F5585C26594442000E1D20 /* PXListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXListViewCell.h; sourceTree = "<group>"; };
+		F5F5585D26594442000E1D20 /* PXListViewDropHighlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXListViewDropHighlight.h; sourceTree = "<group>"; };
+		F5F5585E26594442000E1D20 /* PXListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXListViewCell.m; sourceTree = "<group>"; };
+		F5F5586426594453000E1D20 /* PXListDocumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXListDocumentView.m; sourceTree = "<group>"; };
+		F5F5586526594454000E1D20 /* PXListDocumentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXListDocumentView.h; sourceTree = "<group>"; };
+		F5F55869265946B3000E1D20 /* ECNHorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECNHorizontalTableView.m; sourceTree = "<group>"; };
+		F5F5586A265946B3000E1D20 /* ECNHorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECNHorizontalTableView.h; sourceTree = "<group>"; };
+		F5F5586F26594988000E1D20 /* TestTitleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTitleCell.h; sourceTree = "<group>"; };
+		F5F5587026594988000E1D20 /* TestTitleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTitleCell.m; sourceTree = "<group>"; };
+		F5F55872265949A0000E1D20 /* TestTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTitleCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +229,9 @@
 		F5491F392650297800A405EE /* ECNUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				F5F557EE26592C14000E1D20 /* ECN */,
+				F5491FC02656A95F00A405EE /* TableViews */,
+				F5491F982651693600A405EE /* SFBPopovers */,
 				F5491F7126502EA500A405EE /* Textfeild */,
 				F5491F7026502D8600A405EE /* View */,
 				F5491F5D26502A2000A405EE /* Buttom */,
@@ -159,6 +244,9 @@
 		F5491F47265029CA00A405EE /* ECNUIKitTest */ = {
 			isa = PBXGroup;
 			children = (
+				F5F5586E265948C6000E1D20 /* titleBar */,
+				F5F557E426592229000E1D20 /* FirstController */,
+				F5491FCB26591E1800A405EE /* LeftTableView */,
 				F5491F48265029CA00A405EE /* AppDelegate.h */,
 				F5491F49265029CA00A405EE /* AppDelegate.m */,
 				F5491F4B265029CC00A405EE /* Assets.xcassets */,
@@ -224,6 +312,117 @@
 			path = Textfeild;
 			sourceTree = "<group>";
 		};
+		F5491F982651693600A405EE /* SFBPopovers */ = {
+			isa = PBXGroup;
+			children = (
+				F5491F9C2651693600A405EE /* SFBPopovers.h */,
+				F5491F992651693600A405EE /* SFBPopoverWindowFrame.h */,
+				F5491F9E2651693600A405EE /* SFBPopoverWindowFrame.m */,
+				F5491F9A2651693600A405EE /* SFBPopoverWindow.h */,
+				F5491F9D2651693600A405EE /* SFBPopoverWindow.m */,
+				F5491F9F2651693600A405EE /* SFBPopover.h */,
+				F5491F9B2651693600A405EE /* SFBPopover.m */,
+			);
+			path = SFBPopovers;
+			sourceTree = "<group>";
+		};
+		F5491FC02656A95F00A405EE /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				F5F5584926594390000E1D20 /* ListView */,
+				F5491FC12656AA6900A405EE /* ECNModel.h */,
+				F5491FC22656AA6900A405EE /* ECNModel.m */,
+				F5491FC62656B62E00A405EE /* ECNTableRowView.h */,
+				F5491FC72656B62E00A405EE /* ECNTableRowView.m */,
+			);
+			path = TableViews;
+			sourceTree = "<group>";
+		};
+		F5491FCB26591E1800A405EE /* LeftTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F5491FCC26591E7400A405EE /* LeftModel.h */,
+				F5491FCD26591E7400A405EE /* LeftModel.m */,
+			);
+			path = LeftTableView;
+			sourceTree = "<group>";
+		};
+		F5F557E426592229000E1D20 /* FirstController */ = {
+			isa = PBXGroup;
+			children = (
+				F5F557E52659225C000E1D20 /* ECNFirstViewController.h */,
+				F5F557E62659225C000E1D20 /* ECNFirstViewController.m */,
+				F5F557E72659225C000E1D20 /* ECNFirstViewController.xib */,
+			);
+			path = FirstController;
+			sourceTree = "<group>";
+		};
+		F5F557EE26592C14000E1D20 /* ECN */ = {
+			isa = PBXGroup;
+			children = (
+				F5F557EF26592C50000E1D20 /* ECNClipView.h */,
+				F5F557F026592C50000E1D20 /* ECNClipView.m */,
+				F5F557F4265930A1000E1D20 /* ECNScrollView.h */,
+				F5F557F5265930A1000E1D20 /* ECNScrollView.m */,
+			);
+			path = ECN;
+			sourceTree = "<group>";
+		};
+		F5F5584926594390000E1D20 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				F5F5584B265943E2000E1D20 /* VerticalTableView */,
+				F5F5584A265943AB000E1D20 /* HorizontalTableView */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		F5F5584A265943AB000E1D20 /* HorizontalTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F5F5586A265946B3000E1D20 /* ECNHorizontalTableView.h */,
+				F5F55869265946B3000E1D20 /* ECNHorizontalTableView.m */,
+			);
+			path = HorizontalTableView;
+			sourceTree = "<group>";
+		};
+		F5F5584B265943E2000E1D20 /* VerticalTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F5F5585A26594436000E1D20 /* cells */,
+				F5F5584F2659441B000E1D20 /* PXListView.h */,
+				F5F558502659441B000E1D20 /* PXListView.m */,
+				F5F5584D2659441B000E1D20 /* PXListView+Private.h */,
+				F5F5584C2659441B000E1D20 /* PXListView+UserInteraction.h */,
+				F5F5584E2659441B000E1D20 /* PXListView+UserInteraction.m */,
+				F5F558512659441B000E1D20 /* PXListViewDelegate.h */,
+				F5F5586526594454000E1D20 /* PXListDocumentView.h */,
+				F5F5586426594453000E1D20 /* PXListDocumentView.m */,
+			);
+			path = VerticalTableView;
+			sourceTree = "<group>";
+		};
+		F5F5585A26594436000E1D20 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				F5F5585C26594442000E1D20 /* PXListViewCell.h */,
+				F5F5585E26594442000E1D20 /* PXListViewCell.m */,
+				F5F5585B26594442000E1D20 /* PXListViewCell+Private.h */,
+				F5F5585D26594442000E1D20 /* PXListViewDropHighlight.h */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		F5F5586E265948C6000E1D20 /* titleBar */ = {
+			isa = PBXGroup;
+			children = (
+				F5F5586F26594988000E1D20 /* TestTitleCell.h */,
+				F5F5587026594988000E1D20 /* TestTitleCell.m */,
+				F5F55872265949A0000E1D20 /* TestTitleCell.xib */,
+			);
+			path = titleBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -233,19 +432,37 @@
 			files = (
 				F5491F7F26502EA500A405EE /* ECNTextField.h in Headers */,
 				F5491F972650522C00A405EE /* NS(Attributed)String+Geometrics.h in Headers */,
+				F5491FA72651693600A405EE /* SFBPopover.h in Headers */,
+				F5F558562659441B000E1D20 /* PXListView.h in Headers */,
+				F5F558592659441B000E1D20 /* PXListViewDelegate.h in Headers */,
+				F5491FCE26591E7400A405EE /* LeftModel.h in Headers */,
+				F5F5585F26594442000E1D20 /* PXListViewCell+Private.h in Headers */,
 				F5491F8026502EA500A405EE /* NSColor+Custom.h in Headers */,
+				F5F5586826594454000E1D20 /* PXListDocumentView.h in Headers */,
+				F5F557F6265930A1000E1D20 /* ECNScrollView.h in Headers */,
+				F5F5586026594442000E1D20 /* PXListViewCell.h in Headers */,
 				F5491F8126502EA500A405EE /* ECNClipTextField.h in Headers */,
 				F5491F6B26502CC800A405EE /* ECNCheckBoxCell.h in Headers */,
 				F5491F6126502A4900A405EE /* ECNButton.h in Headers */,
+				F5491FA22651693600A405EE /* SFBPopoverWindow.h in Headers */,
+				F5491FC82656B62E00A405EE /* ECNTableRowView.h in Headers */,
+				F5491FA12651693600A405EE /* SFBPopoverWindowFrame.h in Headers */,
+				F5F558522659441B000E1D20 /* PXListView+UserInteraction.h in Headers */,
 				F5491F8826502EA500A405EE /* ECNSecureTextField.h in Headers */,
 				F5491F6A26502CC800A405EE /* ECNCheckBox.h in Headers */,
 				F5491F3C2650297800A405EE /* ECNUIKit.h in Headers */,
 				F5491F8326502EA500A405EE /* ECNTextFieldCell.h in Headers */,
+				F5F558532659441B000E1D20 /* PXListView+Private.h in Headers */,
 				F5491F6E26502D5C00A405EE /* ECNView.h in Headers */,
+				F5F557F126592C50000E1D20 /* ECNClipView.h in Headers */,
 				F5491F92265051F200A405EE /* NSView+GreenArrows.h in Headers */,
+				F5491FA42651693600A405EE /* SFBPopovers.h in Headers */,
+				F5F5586D265946B3000E1D20 /* ECNHorizontalTableView.h in Headers */,
 				F5491F6326502AF700A405EE /* Button.h in Headers */,
 				F5491F8B2650325E00A405EE /* TextField.h in Headers */,
 				F5491F7E26502EA500A405EE /* ECNSecureTextFieldCell.h in Headers */,
+				F5F5586126594442000E1D20 /* PXListViewDropHighlight.h in Headers */,
+				F5491FC32656AA6900A405EE /* ECNModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +529,7 @@
 			knownRegions = (
 				en,
 				Base,
+				English,
 			);
 			mainGroup = F5491F2D2650297800A405EE;
 			productRefGroup = F5491F382650297800A405EE /* Products */;
@@ -336,8 +554,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F55873265949A0000E1D20 /* TestTitleCell.xib in Resources */,
 				F5491F4C265029CC00A405EE /* Assets.xcassets in Resources */,
 				F5491F4F265029CC00A405EE /* MainMenu.xib in Resources */,
+				F5F557E92659225C000E1D20 /* ECNFirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,18 +568,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F558572659441B000E1D20 /* PXListView.m in Sources */,
+				F5F557F226592C50000E1D20 /* ECNClipView.m in Sources */,
 				F5491F8426502EA500A405EE /* ECNSecureTextFieldCell.m in Sources */,
+				F5F5586226594442000E1D20 /* PXListViewCell.m in Sources */,
+				F5F5586B265946B3000E1D20 /* ECNHorizontalTableView.m in Sources */,
+				F5491FA62651693600A405EE /* SFBPopoverWindowFrame.m in Sources */,
 				F5491F8526502EA500A405EE /* NSColor+Custom.m in Sources */,
+				F5491FA32651693600A405EE /* SFBPopover.m in Sources */,
 				F5491F6926502CC800A405EE /* ECNCheckBox.m in Sources */,
 				F5491F6F26502D5C00A405EE /* ECNView.m in Sources */,
 				F5491F6826502CC800A405EE /* ECNCheckBoxCell.m in Sources */,
 				F5491F8626502EA500A405EE /* ECNTextField.m in Sources */,
+				F5491FA52651693600A405EE /* SFBPopoverWindow.m in Sources */,
 				F5491F8226502EA500A405EE /* ECNSecureTextField.m in Sources */,
 				F5491F8926502EA500A405EE /* ECNClipTextField.m in Sources */,
 				F5491F6026502A4900A405EE /* ECNButton.m in Sources */,
+				F5491FC42656AA6900A405EE /* ECNModel.m in Sources */,
 				F5491F8726502EA500A405EE /* ECNTextFieldCell.m in Sources */,
 				F5491F962650522C00A405EE /* NS(Attributed)String+Geometrics.m in Sources */,
 				F5491F93265051F200A405EE /* NSView+GreenArrows.m in Sources */,
+				F5F558542659441B000E1D20 /* PXListView+UserInteraction.m in Sources */,
+				F5491FCF26591E7400A405EE /* LeftModel.m in Sources */,
+				F5F5586626594454000E1D20 /* PXListDocumentView.m in Sources */,
+				F5F557F7265930A1000E1D20 /* ECNScrollView.m in Sources */,
+				F5491FC92656B62E00A405EE /* ECNTableRowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,8 +600,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5491FD026591E7400A405EE /* LeftModel.m in Sources */,
 				F5491F52265029CC00A405EE /* main.m in Sources */,
+				F5F558552659441B000E1D20 /* PXListView+UserInteraction.m in Sources */,
+				F5F557F8265930A1000E1D20 /* ECNScrollView.m in Sources */,
+				F5F5586C265946B3000E1D20 /* ECNHorizontalTableView.m in Sources */,
+				F5F557F326592C50000E1D20 /* ECNClipView.m in Sources */,
+				F5491FCA2656B62E00A405EE /* ECNTableRowView.m in Sources */,
+				F5F558582659441B000E1D20 /* PXListView.m in Sources */,
+				F5491FC52656AB0900A405EE /* ECNModel.m in Sources */,
+				F5F557E82659225C000E1D20 /* ECNFirstViewController.m in Sources */,
+				F5F5587126594988000E1D20 /* TestTitleCell.m in Sources */,
+				F5F5586726594454000E1D20 /* PXListDocumentView.m in Sources */,
 				F5491F4A265029CA00A405EE /* AppDelegate.m in Sources */,
+				F5F5586326594442000E1D20 /* PXListViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

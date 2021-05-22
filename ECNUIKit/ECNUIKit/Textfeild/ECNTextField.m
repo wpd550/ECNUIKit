@@ -13,6 +13,7 @@
     if(self = [super initWithCoder:coder])
     {
 //        [self setup];
+        [[self cell] setBordered:NO];
     }
     return self;
 }

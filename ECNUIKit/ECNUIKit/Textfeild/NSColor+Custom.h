@@ -96,6 +96,11 @@ typedef enum GRProgressIndicatorTheme {
 
 + (NSColor*)colorWithHex:(int)rgbValue;
 
+
+
++ (NSColor *)rbl_colorWithCGColor:(CGColorRef)color ;
+
+- (CGColorRef)rbl_CGColor;
 @end
 
 

@@ -29,43 +29,14 @@
         [self __initializeTUICheckbox];
     }
     return self;
+    
+    
 }
+
 
 -(instancetype) initWithCoder:(NSCoder *)coder
 {
-    
-    /*BOOL sub = YES;
-    
-    sub = sub && [coder isKindOfClass: [NSKeyedUnarchiver class]]; // no support for 10.1 nibs
-    sub = sub && ![self isMemberOfClass: [NSControl class]]; // no raw NSControls
-    sub = sub && [[self superclass] cellClass] != nil; // need to have something to substitute
-    sub = sub && [[self superclass] cellClass] != [[self class] cellClass]; // pointless if same
-    
-    if( !sub )
-    {
-        self = [super initWithCoder: coder];
-    }
-    else
-    {
-        NSKeyedUnarchiver *Newcoder = (id)coder;
-        
-        // gather info about the superclass's cell and save the archiver's old mapping
-        Class superCell = [[self superclass] cellClass];
-        NSString *oldClassName = NSStringFromClass( superCell );
-        Class oldClass = [Newcoder classForClassName: oldClassName];
-        if( !oldClass )
-            oldClass = superCell;
-        
-        // override what comes out of the unarchiver
-        [Newcoder setClass: [[self class] cellClass] forClassName: oldClassName];
-        
-        // unarchive
-        self = [super initWithCoder: coder];
-        
-        // set it back
-        [Newcoder setClass: oldClass forClassName: oldClassName];
-    }
-*/
+
     if (self = [super initWithCoder:coder]) {
         [self __initializeTUICheckbox];
     }
@@ -78,6 +49,8 @@
     }
     return self;
 }
+
+
 
 #pragma mark - Public Methods
 
@@ -194,6 +167,7 @@
 #pragma mark - Private Methods
 
 -(void)__initializeTUICheckbox{
+    [self swapCell];
     _buttonFlags.isNormalStringValue = YES;
     _buttonFlags.isUnderLined = NO;
     _titleColor = [NSColor blackColor];
@@ -202,6 +176,13 @@
     self.boxBorderColor = [NSColor grayColor];
     self.bgColor = [NSColor whiteColor];
     self.font = [NSFont fontWithName:@"Helvetica Neue" size:14];
+
+}
+
+-(void)swapCell{
+    
+    ECNCheckBoxCell* cell =[[ECNCheckBoxCell alloc] init];
+    self.cell =cell;
 }
 
 -(void)__updateLookup{

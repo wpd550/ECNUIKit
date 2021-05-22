@@ -39,38 +39,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2EAF0741-3294-4F74-BB1D-2D49BAA2ECA9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ECNUIKit/View/ECNView.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
-            landmarkName = "-showShadow:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "352FAD6A-0AF4-4414-9D3F-7681F173CE38"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ECNUIKit/View/ECNView.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "148"
-            endingLineNumber = "148"
-            landmarkName = "-showShadow:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "BAD51260-994B-46F0-8AF1-EE655A7F7A78"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -103,17 +71,397 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7067C5F4-7D8C-419E-B629-F126C2E0C710"
+            uuid = "D12B5783-B8C1-4671-BF0A-F283CAF051DD"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ECNUIKit/View/ECNView.m"
+            filePath = "ECNUIKit/TableView/ECNTableRowView.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "138"
-            endingLineNumber = "138"
-            landmarkName = "-showShadow:"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "ECNTableRowView"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "5C13B731-400E-4EC1-B0C5-00C66511BA4A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97795549-A203-4907-BFA7-916E78A9FDAD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECNUIKit/TableViews/ListView/VerticalTableView/cells/PXListViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "+cellLoadedFromNibNamed:reusableIdentifier:"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "97795549-A203-4907-BFA7-916E78A9FDAD - a50ca483ea8b5a90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[PXListViewCell cellLoadedFromNibNamed:reusableIdentifier:]"
+                  moduleName = "ECNUIKitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dong/Developer/oc/ECNUIKit/ECNUIKit/ECNUIKit/TableViews/ListView/VerticalTableView/cells/PXListViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  uuid = "97795549-A203-4907-BFA7-916E78A9FDAD - 9023f010f895b37c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[PXListViewCell cellLoadedFromNibNamed:reusableIdentifier:]"
+                  moduleName = "ECNUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dong/Developer/oc/ECNUIKit/ECNUIKit/ECNUIKit/TableViews/ListView/VerticalTableView/cells/PXListViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "75">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "482B052E-B1A1-49C1-90E0-F9206CDCB0A6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECNUIKitTest/AppDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "-listView:cellForRow:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5CA97FA4-B57B-46B6-A7F8-1C90F4EA4049"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECNUIKit/TableViews/ListView/VerticalTableView/cells/PXListViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "+cellLoadedFromNibNamed:bundle:reusableIdentifier:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5CA97FA4-B57B-46B6-A7F8-1C90F4EA4049 - f852f2864de1b726"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[PXListViewCell cellLoadedFromNibNamed:bundle:reusableIdentifier:]"
+                  moduleName = "ECNUIKitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dong/Developer/oc/ECNUIKit/ECNUIKit/ECNUIKit/TableViews/ListView/VerticalTableView/cells/PXListViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "154">
+               </Location>
+               <Location
+                  uuid = "5CA97FA4-B57B-46B6-A7F8-1C90F4EA4049 - cd7da6155fff5eca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[PXListViewCell cellLoadedFromNibNamed:bundle:reusableIdentifier:]"
+                  moduleName = "ECNUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dong/Developer/oc/ECNUIKit/ECNUIKit/ECNUIKit/TableViews/ListView/VerticalTableView/cells/PXListViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "154">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46D965F0-CE53-4A34-BAF1-5A18642483EF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECNUIKitTest/titleBar/MyListViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-drawRect:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E27466B3-C668-4EFA-810B-097BB5FBC995"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECNUIKit/TableViews/ListView/HorizontalTableView/ECNHorizontalTableView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "-drawRect:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E27466B3-C668-4EFA-810B-097BB5FBC995 - 1b01801071ca18a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ECNHorizontalTableView drawRect:]"
+                  moduleName = "ECNUIKitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dong/Developer/oc/ECNUIKit/ECNUIKit/ECNUIKit/TableViews/ListView/HorizontalTableView/ECNHorizontalTableView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "E27466B3-C668-4EFA-810B-097BB5FBC995 - 2e2ed48363d4f144"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ECNHorizontalTableView drawRect:]"
+                  moduleName = "ECNUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dong/Developer/oc/ECNUIKit/ECNUIKit/ECNUIKit/TableViews/ListView/HorizontalTableView/ECNHorizontalTableView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B16184C1-29DE-4501-BEBD-1B7A1A3C6176"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECNUIKit/TableViews/ListView/HorizontalTableView/ECNHorizontalTableView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "-rectOfRow:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B16184C1-29DE-4501-BEBD-1B7A1A3C6176 - 3914e27aea302069"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ECNHorizontalTableView rectOfRow:]"
+                  moduleName = "ECNUIKitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dong/Developer/oc/ECNUIKit/ECNUIKit/ECNUIKit/TableViews/ListView/HorizontalTableView/ECNHorizontalTableView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "B16184C1-29DE-4501-BEBD-1B7A1A3C6176 - c3bb6e9f82ec985"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ECNHorizontalTableView rectOfRow:]"
+                  moduleName = "ECNUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dong/Developer/oc/ECNUIKit/ECNUIKit/ECNUIKit/TableViews/ListView/HorizontalTableView/ECNHorizontalTableView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACAB2890-4705-4381-A5FE-C61D9BD70F01"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECNUIKit/TableViews/ListView/HorizontalTableView/ECNHorizontalTableView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "-cacheCellLayout"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ACAB2890-4705-4381-A5FE-C61D9BD70F01 - b99916f5c3378b12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ECNHorizontalTableView cacheCellLayout]"
+                  moduleName = "ECNUIKitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dong/Developer/oc/ECNUIKit/ECNUIKit/ECNUIKit/TableViews/ListView/HorizontalTableView/ECNHorizontalTableView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "671">
+               </Location>
+               <Location
+                  uuid = "ACAB2890-4705-4381-A5FE-C61D9BD70F01 - 8cb64266d12962fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ECNHorizontalTableView cacheCellLayout]"
+                  moduleName = "ECNUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dong/Developer/oc/ECNUIKit/ECNUIKit/ECNUIKit/TableViews/ListView/HorizontalTableView/ECNHorizontalTableView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "671">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70E608C7-6FED-4B68-A24B-491F21CF69CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECNUIKit/TableViews/ListView/HorizontalTableView/ECNHorizontalTableView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "-cacheCellLayout"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "70E608C7-6FED-4B68-A24B-491F21CF69CE - b99916f5c33795c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ECNHorizontalTableView cacheCellLayout]"
+                  moduleName = "ECNUIKitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dong/Developer/oc/ECNUIKit/ECNUIKit/ECNUIKit/TableViews/ListView/HorizontalTableView/ECNHorizontalTableView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  uuid = "70E608C7-6FED-4B68-A24B-491F21CF69CE - 8cb64266d1297c24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ECNHorizontalTableView cacheCellLayout]"
+                  moduleName = "ECNUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dong/Developer/oc/ECNUIKit/ECNUIKit/ECNUIKit/TableViews/ListView/HorizontalTableView/ECNHorizontalTableView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A78EB98-DC31-48F1-BC4D-8029A0C2362D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ECNUIKit/TableViews/ECNTableRowView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "-mouseEntered:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4A78EB98-DC31-48F1-BC4D-8029A0C2362D - 7401c22d8f74fb8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ECNTableRowView mouseEntered:]"
+                  moduleName = "ECNUIKitTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dong/Developer/oc/ECNUIKit/ECNUIKit/ECNUIKit/TableViews/ECNTableRowView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "162">
+               </Location>
+               <Location
+                  uuid = "4A78EB98-DC31-48F1-BC4D-8029A0C2362D - 412e96be9d6a1267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ECNTableRowView mouseEntered:]"
+                  moduleName = "ECNUIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dong/Developer/oc/ECNUIKit/ECNUIKit/ECNUIKit/TableViews/ECNTableRowView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "162">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
