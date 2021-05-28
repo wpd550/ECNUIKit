@@ -154,8 +154,8 @@
             filePath = "ECNUIKitTest/AppDelegate.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "153"
-            endingLineNumber = "153"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
             landmarkName = "-listView:cellForRow:"
             landmarkType = "7">
          </BreakpointContent>
@@ -412,54 +412,6 @@
                   startingLineNumber = "40"
                   endingLineNumber = "40"
                   offsetFromSymbolStart = "25">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4A78EB98-DC31-48F1-BC4D-8029A0C2362D"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ECNUIKit/TableViews/ECNTableRowView.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "131"
-            endingLineNumber = "131"
-            landmarkName = "-mouseEntered:"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4A78EB98-DC31-48F1-BC4D-8029A0C2362D - 7401c22d8f74fb8b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ECNTableRowView mouseEntered:]"
-                  moduleName = "ECNUIKitTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dong/Developer/oc/ECNUIKit/ECNUIKit/ECNUIKit/TableViews/ECNTableRowView.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "133"
-                  endingLineNumber = "133"
-                  offsetFromSymbolStart = "162">
-               </Location>
-               <Location
-                  uuid = "4A78EB98-DC31-48F1-BC4D-8029A0C2362D - 412e96be9d6a1267"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ECNTableRowView mouseEntered:]"
-                  moduleName = "ECNUIKit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dong/Developer/oc/ECNUIKit/ECNUIKit/ECNUIKit/TableViews/ECNTableRowView.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "133"
-                  endingLineNumber = "133"
-                  offsetFromSymbolStart = "162">
                </Location>
             </Locations>
          </BreakpointContent>

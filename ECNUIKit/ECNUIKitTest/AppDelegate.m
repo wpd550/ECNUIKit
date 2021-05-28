@@ -10,7 +10,11 @@
 #import "ECNModel.h"
 #import "LeftModel.h"
 #import "TestTitleCell.h"
+#import "ECNLogFormatter.h"
 
+#define DD_LEGACY_MESSAGE_TAG 0
+
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 #import "ECNHorizontalTableView.h"
 
@@ -36,7 +40,11 @@
 @property (strong) NSMutableArray *listItems;
 
 @end
-
+#if DEBUG
+    static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+#else
+    static const DDLogLevel ddLogLevel = DDLogLevelWarning;
+#endif
 
 
 @implementation AppDelegate
@@ -44,7 +52,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
 //    [self.View showGreenArrowsWithHeight:10];
-    
+    [self initLLog];
     self.contentArray = [NSMutableArray new];
     self.tableView.floatsGroupRows = YES;
     self.tableView.rowHeight = 50;
@@ -167,6 +175,20 @@
     NSLog(@"Selection changed");
 }
 
-
+- (void)initLLog{
+   
+    
+    ECNLogFormatter *formatter = [[ECNLogFormatter alloc] init];
+    [[DDOSLogger sharedInstance] setLogFormatter:formatter];
+    [DDLog addLogger:[DDOSLogger sharedInstance]];
+    DDFileLogger *fileLogger = [[DDFileLogger alloc] init];
+    fileLogger.rollingFrequency = 60*60*24;
+    fileLogger.logFileManager.maximumNumberOfLogFiles = 7;
+    fileLogger.logFormatter = formatter;
+    [DDLog addLogger:fileLogger];
+    
+    DDLogVerbose(@"DDLogVerbose");
+//    DDLogDebug(@"123");
+}
 
 @end
