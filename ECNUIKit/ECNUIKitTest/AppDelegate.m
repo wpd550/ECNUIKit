@@ -51,7 +51,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
-//    [self.View showGreenArrowsWithHeight:10];
+    [self.View showGreenArrowsWithHeight:10];
     [self initLLog];
     self.contentArray = [NSMutableArray new];
     self.tableView.floatsGroupRows = YES;
@@ -129,7 +129,7 @@
     _listItems = [[NSMutableArray alloc] init];
 
     //Create a bunch of rows as a test
-    for( NSInteger i = 0; i < 40; i++ )
+    for( NSInteger i = 0; i < 400; i++ )
     {
         NSString *title = [[NSString alloc] initWithFormat: @"Item %d", i +1];
         [_listItems addObject:title];
@@ -157,6 +157,7 @@
     
     // Set up the new cell:
 //    [[cell titleLabel] setStringValue:[_listItems objectAtIndex:row]];
+    cell.label.stringValue = [NSString stringWithFormat:@"%d",row];
     
     return cell;
 }
@@ -188,7 +189,6 @@
     [DDLog addLogger:fileLogger];
     
     DDLogVerbose(@"DDLogVerbose");
-//    DDLogDebug(@"123");
 }
 
 @end

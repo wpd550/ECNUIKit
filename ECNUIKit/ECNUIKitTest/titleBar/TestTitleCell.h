@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TestTitleCell : PXListViewCell
 
 
-//@property IBOutlet NSTextField* label;
+@property IBOutlet NSTextField* label;
 @end
 
 NS_ASSUME_NONNULL_END
